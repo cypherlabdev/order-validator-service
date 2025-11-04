@@ -1,0 +1,16 @@
+mode: atomic
+github.com/cypherlabdev/order-validator-service/internal/activity/orderbook_activities.go:21.73,25.2 1 2
+github.com/cypherlabdev/order-validator-service/internal/activity/orderbook_activities.go:28.149,66.2 6 0
+github.com/cypherlabdev/order-validator-service/internal/activity/orderbook_activities.go:69.134,93.2 4 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:28.75,36.2 1 8
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:39.138,46.39 4 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:46.39,52.3 2 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:55.2,55.36 1 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:55.36,62.3 3 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:64.2,64.39 1 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:64.39,71.3 3 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:74.2,74.34 1 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:74.34,81.3 3 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:83.2,83.37 1 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:83.37,90.3 3 0
+github.com/cypherlabdev/order-validator-service/internal/activity/validation_activities.go:123.2,128.8 2 0
