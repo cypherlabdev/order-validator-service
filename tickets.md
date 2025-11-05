@@ -13,7 +13,22 @@
 **Assignee**: sj@cypherlab.tech
 **Dependencies**: ⬆️ ENG-82 (order-book), ⬇️ None (saga coordinator)
 
-## Tickets to Create
-1. **[NEW] Implement gRPC Server (P0)** - Server setup missing
-2. **[NEW] Implement Saga Workflows with Temporal (P0)** - 2PC coordination
-3. **[NEW] Add Validation Rules Engine (P1)** - Configurable rules
+## Proposed New Tickets (Created in Asana)
+
+### 2. Implement gRPC Server
+**Task ID**: 1211847562927042
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847562927042
+**Priority**: P0
+
+### 3. Implement Saga Workflows with Temporal
+**Task ID**: 1211847660521310
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847660521310
+**Priority**: P0
+
+### 4. Add Validation Rules Engine
+**Task ID**: 1211847723102677
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847723102677
+**Priority**: P1
