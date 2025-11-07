@@ -3,6 +3,7 @@ module github.com/cypherlabdev/order-validator-service
 go 1.24.2
 
 require (
+	github.com/cypherlabdev/cypherlabdev-protos v0.0.0-20250101000000-000000000000
 	github.com/google/uuid v1.6.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/rs/zerolog v1.34.0
@@ -55,3 +56,5 @@ require (
 	google.golang.org/protobuf v1.36.8 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/cypherlabdev/cypherlabdev-protos => ../tam-protos
