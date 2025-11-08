@@ -57,7 +57,11 @@ func main() {
 	}
 
 	validationActivities := activity.NewValidationActivities(logger)
-	orderBookActivities := activity.NewOrderBookActivities(logger)
+
+	orderBookActivities, err := activity.NewOrderBookActivities(cfg.Services.OrderBookServiceAddr, logger)
+	if err != nil {
+		logger.Fatal().Err(err).Msg("failed to initialize order-book activities")
+	}
 
 	// Create Temporal worker
 	w := worker.New(temporalClient, cfg.Temporal.TaskQueue, worker.Options{
