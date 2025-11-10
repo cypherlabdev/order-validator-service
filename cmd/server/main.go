@@ -17,6 +17,7 @@ import (
 	"go.temporal.io/sdk/worker"
 	"google.golang.org/grpc"
 
+	orderv1 "github.com/cypherlabdev/cypherlabdev-protos/gen/go/order/v1"
 	"github.com/cypherlabdev/order-validator-service/internal/activity"
 	"github.com/cypherlabdev/order-validator-service/internal/config"
 	grpcHandler "github.com/cypherlabdev/order-validator-service/internal/handler/grpc"
@@ -141,8 +142,7 @@ func startGRPCServer(cfg *config.Config, temporalClient client.Client, logger ze
 
 	// Register services
 	orderHandler := grpcHandler.NewOrderHandler(temporalClient, logger)
-	// TODO: Register proto-generated service when available
-	// pb.RegisterOrderValidatorServiceServer(grpcServer, orderHandler)
+	orderv1.RegisterValidatorServiceServer(grpcServer, orderHandler)
 
 	logger.Info().Int("port", cfg.Server.GRPCPort).Msg("gRPC server listening")
 
